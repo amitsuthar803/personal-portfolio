@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply rounded-full focus:outline-none focus:ring focus:ring-yellow-400 border transition-all duration-300 border-stone-200 text-sm px-4 py-2 md:px-6 md:py-3;
+  }
+
+  .anchor-link {
+    @apply relative border-b-2  text-lg pb-2  hover:before:pr-[8rem]  border-slate-300 pr-[8rem] before:content-[''] before:border-b-2 before:border-black before:bottom-[-1.5px] before:absolute before:transition-[padding] before:ease-[ease-out] before:duration-[0.6s];
+  }
+
+  .bg-text {
+    @apply relative after:absolute after:right-[-10%] after:bottom-[-100px]  sm:after:right-[0%] sm:after:bottom-[100px]  after:text-[33rem] sm:after:font-[400] sm:after:text-[33rem]
+    after:leading-[70%] after:tracking-[-0.1em] after:text-[#f1f1f1] after:-z-10;
+  }
+
+  .card {
+    @apply bg-slate-200 rounded cursor-pointer p-[1rem] md:p-[1rem];
+  }
+
+  /* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
+  .loader {
+    width: 45px;
+    aspect-ratio: 0.75;
+    --c: no-repeat linear-gradient(theme(colors.stone.800) 0 0);
+    background: var(--c) 0% 50%, var(--c) 50% 50%, var(--c) 100% 50%;
+    background-size: 20% 50%;
+    animation: loading 1s infinite linear;
+  }
+
+  @keyframes loading {
+    20% {
+      background-position: 0% 0%, 50% 50%, 100% 50%;
+    }
+    40% {
+      background-position: 0% 100%, 50% 0%, 100% 50%;
+    }
+    60% {
+      background-position: 0% 50%, 50% 100%, 100% 0%;
+    }
+    80% {
+      background-position: 0% 50%, 50% 50%, 100% 100%;
+    }
+  }
+}
