@@ -9,10 +9,10 @@ function Card() {
       id: 1,
       title: "web App",
       image: [
-        "/public/port-item1.jpg",
-        "/public/port-item2.jpg",
-        "/public/port-item3.jpg",
-        "/public/port-item4.jpg",
+        "./public/port-item1.jpg",
+        "./public/port-item2.jpg",
+        "./public/port-item3.jpg",
+        "./public/port-item4.jpg",
       ],
 
       description:
