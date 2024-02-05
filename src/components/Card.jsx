@@ -9,10 +9,10 @@ function Card() {
       id: 1,
       title: "web App",
       image: [
-        "port-item1.jpg",
-        "/public/port-item2.jpg",
-        "/public/port-item3.jpg",
-        "/public/port-item4.jpg",
+        "./port-item1.jpg",
+        "./port-item2.jpg",
+        "./port-item3.jpg",
+        "./port-item4.jpg",
       ],
 
       description:
@@ -22,10 +22,10 @@ function Card() {
       id: 2,
       title: "Bank App",
       image: [
-        "/public/port-item1.jpg",
-        "/public/port-item2.jpg",
-        "/public/port-item3.jpg",
-        "/public/port-item4.jpg",
+        "./port-item1.jpg",
+        "./port-item2.jpg",
+        "./port-item3.jpg",
+        "./port-item4.jpg",
       ],
       description:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
@@ -34,10 +34,10 @@ function Card() {
       id: 3,
       title: "web App",
       image: [
-        "/public/port-item1.jpg",
-        "/public/port-item2.jpg",
-        "/public/port-item3.jpg",
-        "/public/port-item4.jpg",
+        "./port-item1.jpg",
+        "./port-item2.jpg",
+        "./port-item3.jpg",
+        "./port-item4.jpg",
       ],
       description:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
@@ -46,10 +46,10 @@ function Card() {
       id: 4,
       title: "web App",
       image: [
-        "/public/port-item1.jpg",
-        "/public/port-item2.jpg",
-        "/public/port-item3.jpg",
-        "/public/port-item4.jpg",
+        "./port-item1.jpg",
+        "./port-item2.jpg",
+        "./port-item3.jpg",
+        "./port-item4.jpg",
       ],
       description:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
@@ -58,10 +58,10 @@ function Card() {
       id: 5,
       title: "web App",
       image: [
-        "/public/port-item1.jpg",
-        "/public/port-item2.jpg",
-        "/public/port-item3.jpg",
-        "/public/port-item4.jpg",
+        "./port-item1.jpg",
+        "./port-item2.jpg",
+        "./port-item3.jpg",
+        "./port-item4.jpg",
       ],
       description:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
@@ -70,10 +70,10 @@ function Card() {
       id: 6,
       title: "web App",
       image: [
-        "/public/port-item1.jpg",
-        "/public/port-item2.jpg",
-        "/public/port-item3.jpg",
-        "/public/port-item4.jpg",
+        "./port-item1.jpg",
+        "./port-item2.jpg",
+        "./port-item3.jpg",
+        "./port-item4.jpg",
       ],
       description:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
@@ -82,10 +82,10 @@ function Card() {
       id: 7,
       title: "web App",
       image: [
-        "/public/port-item1.jpg",
-        "/public/port-item2.jpg",
-        "/public/port-item3.jpg",
-        "/public/port-item4.jpg",
+        "./port-item1.jpg",
+        "./port-item2.jpg",
+        "./port-item3.jpg",
+        "./port-item4.jpg",
       ],
       description:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
@@ -94,10 +94,10 @@ function Card() {
       id: 8,
       title: "web App",
       image: [
-        "/public/port-item1.jpg",
-        "/public/port-item2.jpg",
-        "/public/port-item3.jpg",
-        "/public/port-item4.jpg",
+        "./port-item1.jpg",
+        "./port-item2.jpg",
+        "./port-item3.jpg",
+        "./port-item4.jpg",
       ],
       description:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
@@ -106,10 +106,10 @@ function Card() {
       id: 9,
       title: "web App",
       image: [
-        "/public/port-item1.jpg",
-        "/public/port-item2.jpg",
-        "/public/port-item3.jpg",
-        "/public/port-item4.jpg",
+        "./port-item1.jpg",
+        "./port-item2.jpg",
+        "./port-item3.jpg",
+        "./port-item4.jpg",
       ],
       description:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
