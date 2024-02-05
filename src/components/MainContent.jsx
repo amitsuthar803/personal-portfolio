@@ -35,7 +35,7 @@ const MainContent = () => {
               <div className="px-7">
                 <img
                   className="sm:w-full "
-                  src="/banner-image.png"
+                  src="./banner-image.png"
                   alt=""
                 />
               </div>

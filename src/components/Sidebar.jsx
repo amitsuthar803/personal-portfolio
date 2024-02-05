@@ -140,7 +140,7 @@ const Sidebar = ({
         <div className="navigation px-[4rem] py-[3rem]">
           <div className="site-logo">
             <AnchorLink>
-              <img src="/main-logo.png" alt="" />
+              <img src="./main-logo.png" alt="" />
             </AnchorLink>
           </div>
           <div className="nav">
