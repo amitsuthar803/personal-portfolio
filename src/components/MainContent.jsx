@@ -33,11 +33,7 @@ const MainContent = () => {
             {/* 1 */}
             <div className=" flex-1">
               <div className="px-7">
-                <img
-                  className="sm:w-full "
-                  src="./banner-image.png"
-                  alt=""
-                />
+                <img className="sm:w-full " src="./banner-image.png" alt="" />
               </div>
             </div>
             {/* 2 */}
@@ -59,7 +55,7 @@ const MainContent = () => {
                 </span>
 
                 <h1 className="font-bold text-[4rem] sm:text-[5rem] md:text-[9rem] tracking-tight leading-[1] mt-2">
-                  <span>Amit </span>
+                  <span>Amitf</span>
                   <br className="hidden md:block" />
                   <span>Suthar</span>
                 </h1>
