@@ -55,7 +55,7 @@ const MainContent = () => {
                 </span>
 
                 <h1 className="font-bold text-[4rem] sm:text-[5rem] md:text-[9rem] tracking-tight leading-[1] mt-2">
-                  <span>Amitf</span>
+                  <span>Amit</span>
                   <br className="hidden md:block" />
                   <span>Suthar</span>
                 </h1>
