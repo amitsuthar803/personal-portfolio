@@ -1,7 +1,7 @@
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import Card from "./card";
+import Card from "./Card";
 
 const MainContent = () => {
   const container = useRef(null);
