@@ -134,7 +134,7 @@ function Card() {
         >
           <img
             className="m-auto md:w-[100%]"
-            src={`./public/port-item${index + 1}.jpg`}
+            src={`./port-item${index + 1}.jpg`}
             alt={`Image ${item.id}`}
           />
         </div>
