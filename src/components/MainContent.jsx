@@ -1,7 +1,9 @@
 import { motion, useInView, useAnimation } from "framer-motion";
+import Contact from "./Contact";
 import { useEffect, useRef } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Card from "./Card";
+import Map from "./Map";
 
 const MainContent = () => {
   const container = useRef(null);
@@ -329,10 +331,13 @@ const MainContent = () => {
         </section>
         {/* section-3 ends*/}
 
-        <section id="portfolio" className="about  py-[4rem] flex flex-col ">
-          <div className="flex flex-col justify-center items-center text-start mb-10">
+        <section
+          id="portfolio"
+          className="portfolio px-4 py-[4rem] flex flex-col "
+        >
+          <div className="flex flex-col justify-center items-center text-start ">
             {/* 1 */}
-            <div className="flex flex-col w-full px-4 md:w-1/2">
+            <div className="flex flex-col w-full  md:w-1/2">
               <span className="text-sm  sm:text-base uppercase text-[#51565b]">
                 Portfolio
               </span>
@@ -342,14 +347,32 @@ const MainContent = () => {
             </div>
 
             {/* 2 */}
-            <div className="md:py-6 md:px-6  grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 w-full">
+            <div className="md:py-6  grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 w-full">
               <Card />
             </div>
           </div>
         </section>
 
-        <section id="contact" className="contact h-screen bg-cyan-100">
-          <h2 className="font-semibold text-[5rem]">Contact</h2>
+        <section
+          id="contact"
+          className="contact h-full  px-4 py-[4rem] flex flex-col "
+        >
+          <div className="flex flex-col justify-center items-center text-start mb-10">
+            {/* 1 */}
+            <div className="flex flex-col w-full px-4 md:w-1/2">
+              <span className="text-sm  sm:text-base uppercase text-[#51565b]">
+                Contact
+              </span>
+              <h2 className="font-bold capitalize text-[3rem] sm:text-[4rem] md:text-[6rem] tracking-tight leading-[1]">
+                Meet Us
+              </h2>
+            </div>
+            {/* 2 */}
+            <div className="flex mt-5 bg-[#1b1e31] flex-col gap-5 md:gap-0 md:flex-row justify-between w-full">
+              <Map />
+              <Contact />
+            </div>
+          </div>
         </section>
       </div>
     </div>
