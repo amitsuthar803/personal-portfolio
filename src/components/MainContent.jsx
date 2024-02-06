@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Card from "./Card";
 import Map from "./Map";
+import resume from "/MY ATS resume.pdf";
 
 const MainContent = () => {
   const container = useRef(null);
@@ -143,6 +144,14 @@ const MainContent = () => {
                   and responsive design. I have experience in building and
                   maintaining single-page applications (SPAs).
                 </p>
+
+                <a
+                  href={resume}
+                  download="Resume"
+                  className="bg-black inline-block  text-white text-uppercase py-4 mt-2 text-center px-5 "
+                >
+                  Download CV
+                </a>
               </div>
             </div>
             {/* div2 */}
