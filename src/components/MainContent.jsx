@@ -54,7 +54,7 @@ const MainContent = () => {
                 }}
               >
                 <span className="text-sm  sm:text-sm uppercase text-[#51565b]">
-                  Designer / Developer
+                  Developer / Designer
                 </span>
 
                 <h1 className="font-bold text-[4rem] sm:text-[5rem] md:text-[9rem] tracking-tight leading-[1] mt-2">
@@ -83,7 +83,9 @@ const MainContent = () => {
                 <h3 className="font-semibold mt-1 text-[1.8rem] leading-[1.2]">
                   React <br className="hidden md:block" /> Developer
                 </h3>
-                <p className="mt-1 text-[#333]">JSX, Redux, Node, Git</p>
+                <p className="mt-1 text-[#333]">
+                  React, Redux, Hooks, React-Query
+                </p>
               </div>
             </div>
             <div>

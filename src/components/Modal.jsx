@@ -4,7 +4,6 @@ import Carousel from "./Carousel";
 
 /* eslint-disable react/prop-types */
 function Modal({ item, onClose, setSelectedItem }) {
-  console.log(item);
   const modalRef = useRef();
 
   const closeModal = (e) => {
@@ -45,12 +44,20 @@ function Modal({ item, onClose, setSelectedItem }) {
 
             <span className="flex gap-2 mt-3 items-center">
               <h3 className="font-semibold">URL:</h3>
-              <a
-                className="text-green-600 text-[1rem]"
-                href="https://amitsuthar803.netlify.app"
-              >
-                www.webapp.com
-              </a>
+              {item.URL ? (
+                <a
+                  className="text-green-600 text-[1rem]"
+                  target="_blank"
+                  rel="noreferrer"
+                  href={item.URL}
+                >
+                  {item.URL}
+                </a>
+              ) : (
+                <p className=" font-semibold text-slate-700">
+                  {item.title} is currently down for maintenance. ⚠️
+                </p>
+              )}
             </span>
           </div>
 
